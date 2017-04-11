@@ -8,8 +8,13 @@
 
 #include <stdio.h>
 
+void squarer (int number) {
+    int squaredNumber = number * number;
+    printf("%d squared is %d.\n", number, squaredNumber);
+    return ;
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    squarer(5);
     return 0;
 }
